@@ -1,4 +1,3 @@
-import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw;
@@ -421,7 +420,7 @@ class _UnifiedIrrigationSuiteScreenState
         margin: const pw.EdgeInsets.all(32),
         build: (pw.Context context) {
           return pw.Column(
-            cross: pw.CrossAxisAlignment.start,
+            crossAxisAlignment: pw.CrossAxisAlignment.start,
             children: [
               pw.Container(
                 width: double.infinity,
